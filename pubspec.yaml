@@ -13,7 +13,9 @@ dependencies:
   node_interop: ^1.0.0-dev
   node_io: ^1.0.0-dev
   node_http: ^1.0.0-dev
-  firebase_admin_interop: ^1.0.0-dev
+  firebase_admin_interop:
+    git: https://github.com/gazialankus/firebase-admin-interop
+#    path: ..\firebase-admin-interop
 
 dev_dependencies:
   test: ^1.0.0
